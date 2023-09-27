@@ -11,7 +11,7 @@ function DropDownButton() {
     return (
         <Dropdown style={styles}>
         <Dropdown.Toggle variant="red" id="dropdown-basic">
-            Idioma
+            {t("components.lenguaje.lenguaje")}
         </Dropdown.Toggle>
 
         <Dropdown.Menu>

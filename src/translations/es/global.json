@@ -1,5 +1,9 @@
 {
     "components": {
+        "lenguaje": {
+            "ISO-639-1": "es",
+            "lenguaje": "Idioma"
+        },
         "header": {
             "bus": "Bus",
             "processor": "Procesador",
