@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/iuta-iii-adc-eval2/static/css/main.073c9b0a.css",
-    "main.js": "/iuta-iii-adc-eval2/static/js/main.9ff5c482.js",
+    "main.js": "/iuta-iii-adc-eval2/static/js/main.417fd2e5.js",
     "static/js/787.a6cfc17a.chunk.js": "/iuta-iii-adc-eval2/static/js/787.a6cfc17a.chunk.js",
     "static/media/logo.svg": "/iuta-iii-adc-eval2/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/iuta-iii-adc-eval2/index.html",
     "main.073c9b0a.css.map": "/iuta-iii-adc-eval2/static/css/main.073c9b0a.css.map",
-    "main.9ff5c482.js.map": "/iuta-iii-adc-eval2/static/js/main.9ff5c482.js.map",
+    "main.417fd2e5.js.map": "/iuta-iii-adc-eval2/static/js/main.417fd2e5.js.map",
     "787.a6cfc17a.chunk.js.map": "/iuta-iii-adc-eval2/static/js/787.a6cfc17a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.9ff5c482.js"
+    "static/js/main.417fd2e5.js"
   ]
 }
