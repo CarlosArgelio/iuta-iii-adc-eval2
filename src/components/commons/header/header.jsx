@@ -1,7 +1,7 @@
 import styles from './header.style'
 import logoIUTA from '../../../assets/logoIUTA.png';
 
-import Button from 'react-bootstrap/Button';
+import DropDownButton  from '../dropdown/dropDownButton';
 
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -27,15 +27,12 @@ const Headers = () => {
                 <Nav.Link href="#pricing" style={{color: styles.colorWhite}}>Dato</Nav.Link>
                 <Nav.Link href="#pricing" style={{color: styles.colorWhite}}>Disco</Nav.Link>
                 <Nav.Link href="#pricing" style={{color: styles.colorWhite}}>Sistema Operativo</Nav.Link>
+
+                <DropDownButton />
+
             </Nav>
             </Container>
         </Navbar>
-        <br />
-        <Button onClick={() => i18n.changeLanguage("en")} style={{backgroundColor: styles.backgroundColor}}>EN</Button>
-        <br />
-        <br />
-        <Button onClick={() => i18n.changeLanguage("es")} style={{backgroundColor: styles.backgroundColor}}>ES</Button>
-
         </>
     );
 }
