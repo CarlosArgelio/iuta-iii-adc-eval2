@@ -1,7 +1,12 @@
 {
     "components": {
         "header": {
-            "bus": "Bus en"
+            "bus": "Bus",
+            "processor": "Processor",
+            "memory": "Memory",
+            "data": "Data",
+            "disk": "Disk",
+            "so": "S.O."
         }
     }
 }

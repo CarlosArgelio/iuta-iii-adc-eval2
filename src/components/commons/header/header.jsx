@@ -22,11 +22,11 @@ const Headers = () => {
             </Navbar.Brand>
             <Nav className="me-auto">
                 <Nav.Link href="#home" style={{color: styles.colorWhite}}> {t('components.header.bus')} </Nav.Link>
-                <Nav.Link href="#features" style={{color: styles.colorWhite}}>Procesador</Nav.Link>
-                <Nav.Link href="#pricing" style={{color: styles.colorWhite}}>Memoria</Nav.Link>
-                <Nav.Link href="#pricing" style={{color: styles.colorWhite}}>Dato</Nav.Link>
-                <Nav.Link href="#pricing" style={{color: styles.colorWhite}}>Disco</Nav.Link>
-                <Nav.Link href="#pricing" style={{color: styles.colorWhite}}>Sistema Operativo</Nav.Link>
+                <Nav.Link href="#features" style={{color: styles.colorWhite}}> {t('components.header.processor')} </Nav.Link>
+                <Nav.Link href="#pricing" style={{color: styles.colorWhite}}> {t('components.header.memory')} </Nav.Link>
+                <Nav.Link href="#pricing" style={{color: styles.colorWhite}}> {t('components.header.data')} </Nav.Link>
+                <Nav.Link href="#pricing" style={{color: styles.colorWhite}}> {t('components.header.disk')} </Nav.Link>
+                <Nav.Link href="#pricing" style={{color: styles.colorWhite}}> {t('components.header.so')}  </Nav.Link>
 
                 <DropDownButton />
 
