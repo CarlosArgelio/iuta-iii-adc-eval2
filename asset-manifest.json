@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/iuta-iii-adc-eval2/static/css/main.073c9b0a.css",
-    "main.js": "/iuta-iii-adc-eval2/static/js/main.4f445353.js",
+    "main.css": "/iuta-iii-adc-eval2/static/css/main.c7937b15.css",
+    "main.js": "/iuta-iii-adc-eval2/static/js/main.e250a79a.js",
     "static/js/787.a6cfc17a.chunk.js": "/iuta-iii-adc-eval2/static/js/787.a6cfc17a.chunk.js",
     "static/media/logoIUTA.png": "/iuta-iii-adc-eval2/static/media/logoIUTA.9d38548ae6f7ba5e6918.png",
     "index.html": "/iuta-iii-adc-eval2/index.html",
-    "main.073c9b0a.css.map": "/iuta-iii-adc-eval2/static/css/main.073c9b0a.css.map",
-    "main.4f445353.js.map": "/iuta-iii-adc-eval2/static/js/main.4f445353.js.map",
+    "main.c7937b15.css.map": "/iuta-iii-adc-eval2/static/css/main.c7937b15.css.map",
+    "main.e250a79a.js.map": "/iuta-iii-adc-eval2/static/js/main.e250a79a.js.map",
     "787.a6cfc17a.chunk.js.map": "/iuta-iii-adc-eval2/static/js/787.a6cfc17a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.4f445353.js"
+    "static/css/main.c7937b15.css",
+    "static/js/main.e250a79a.js"
   ]
 }
