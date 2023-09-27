@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './components/commons/header/header';
+import Footer from './components/commons/footer/footer';
 
 
 function App() {
@@ -9,6 +10,9 @@ function App() {
         <Header />
       </div> 
       <p>Hello World</p>
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }
