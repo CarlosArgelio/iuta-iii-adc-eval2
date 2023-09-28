@@ -7,7 +7,7 @@ const routes =  [
       element: <App />
     },
     {
-      path: "/bus",
+      path: "/iuta-iii-adc-eval2/bus",
       element: <Bus />
     }
 ]
