@@ -1,15 +1,17 @@
 import App from '../App';
 import Bus from '../pages/bus/bus'
 
-const routes =  [
+import { createHashRouter } from 'react-router-dom'
+
+const routes =  createHashRouter([
     {
-      path: "/iuta-iii-adc-eval2",
+      path: "/",
       element: <App />
     },
     {
-      path: "/iuta-iii-adc-eval2/bus",
+      path: "/bus",
       element: <Bus />
     }
-]
+])
 
 export default routes;

@@ -3,11 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-import routes from './routers/root'
+import { RouterProvider } from 'react-router-dom'
+import router from './routers/root'
 
 import { I18nextProvider } from 'react-i18next'
 import i18next from 'i18next'
@@ -27,8 +24,6 @@ i18next.init({
     }
   }
 });
-
-const router = createBrowserRouter(routes);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
