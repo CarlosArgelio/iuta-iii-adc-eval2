@@ -1,11 +1,16 @@
 import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 import './cards.css'
 
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+
+import { useTranslation } from 'react-i18next';
 
 
 function Cards({ title, info, image, example }) {
+    // eslint-disable-next-line no-unused-vars
+    const [t, i18n] = useTranslation("global");
+
     const [isFlipped, setIsFlipped] = useState(false);
 
     const handleFlip = () => {
@@ -18,7 +23,7 @@ function Cards({ title, info, image, example }) {
             <Card.Body>
                 <Card.Title>{title}</Card.Title>
                 <Card.Text>
-                {isFlipped ? info : `Quieres saber que es el ${title}?`}
+                {isFlipped ? info : `${t('pages.bus.components.infoStart')} ${title}?`}
                 </Card.Text>
                 {
                     isFlipped ? 
@@ -31,10 +36,10 @@ function Cards({ title, info, image, example }) {
                             }} 
                             onClick={handleFlip}
                             > 
-                            Volver 
+                            {t('components.back')} 
                             </Button> 
                         </div>
-                        : <Button variant="primary" onClick={handleFlip}> Mirame </Button>
+                        : <Button variant="primary" onClick={handleFlip}> {t('pages.bus.components.see')} </Button>
                 }
             </Card.Body>
             </Card>

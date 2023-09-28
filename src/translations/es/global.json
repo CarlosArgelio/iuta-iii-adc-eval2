@@ -4,6 +4,7 @@
             "ISO-639-1": "es",
             "lenguaje": "Idioma"
         },
+        "back": "Back",
         "header": {
             "bus": "Bus",
             "processor": "Procesador",
@@ -11,6 +12,14 @@
             "data": "Datos",
             "disk": "Disco",
             "so": "S.O."
+        }
+    },
+    "pages": {
+        "bus": {
+            "components": {
+                "see": "Mirame",
+                "infoStart": "Quieres saber que es el"
+            }
         }
     }
 }
