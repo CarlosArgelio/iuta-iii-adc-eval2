@@ -22,7 +22,7 @@ const Headers = () => {
             </Navbar.Brand>
             <Nav className="me-auto">
                 <Nav.Link href="/iuta-iii-adc-eval2/#/bus" style={{color: styles.colorWhite}}> {t('components.header.bus')} </Nav.Link>
-                <Nav.Link href="#features" style={{color: styles.colorWhite}}> {t('components.header.processor')} </Nav.Link>
+                <Nav.Link href="/iuta-iii-adc-eval2/#/processor" style={{color: styles.colorWhite}}> {t('components.header.processor')} </Nav.Link>
                 <Nav.Link href="#pricing" style={{color: styles.colorWhite}}> {t('components.header.memory')} </Nav.Link>
                 <Nav.Link href="#pricing" style={{color: styles.colorWhite}}> {t('components.header.data')} </Nav.Link>
                 <Nav.Link href="#pricing" style={{color: styles.colorWhite}}> {t('components.header.disk')} </Nav.Link>
