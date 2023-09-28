@@ -1,0 +1,11 @@
+.card-flip {
+    transform: rotate(0deg);
+    transition: transform 0.5s;
+  }
+
+.card-with-frame {
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #65c04e 3px;
+    padding: 5px;
+  }

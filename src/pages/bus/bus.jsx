@@ -1,4 +1,5 @@
 import Transition from "./components/transitions/transitions";
+import Cards from "./components/cards/cards";
 
 const bus = () => {
 
@@ -7,9 +8,9 @@ const bus = () => {
             <div>
                 <Transition />
             </div>
-            {/* <div>
-
-            </div> */}
+            <div>
+                <Cards />
+            </div>
         </>
   );
 };
