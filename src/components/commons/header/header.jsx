@@ -21,7 +21,7 @@ const Headers = () => {
                 <img src={logoIUTA} alt="logo IUTA" />
             </Navbar.Brand>
             <Nav className="me-auto">
-                <Nav.Link href="#home" style={{color: styles.colorWhite}}> {t('components.header.bus')} </Nav.Link>
+                <Nav.Link href="/bus" style={{color: styles.colorWhite}}> {t('components.header.bus')} </Nav.Link>
                 <Nav.Link href="#features" style={{color: styles.colorWhite}}> {t('components.header.processor')} </Nav.Link>
                 <Nav.Link href="#pricing" style={{color: styles.colorWhite}}> {t('components.header.memory')} </Nav.Link>
                 <Nav.Link href="#pricing" style={{color: styles.colorWhite}}> {t('components.header.data')} </Nav.Link>
