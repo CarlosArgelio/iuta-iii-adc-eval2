@@ -14,8 +14,7 @@ function Cards() {
     };
 
     return (
-        <>
-            <Card style={{ width: '18rem' }} className={`card-flip ${isFlipped && 'card-with-frame'}`}>
+            <Card style={{ width: '18rem', margin: "10px" }} className={`card-flip ${isFlipped && 'card-with-frame'}`}>
             <Card.Img variant="top" src={imageDataExample} />
             <Card.Body>
                 <Card.Title>{isFlipped ? 'Bus de datos' : 'Bus de datos'}</Card.Title>
@@ -51,7 +50,6 @@ function Cards() {
                 }
             </Card.Body>
             </Card>
-        </>
     );
 }
 
