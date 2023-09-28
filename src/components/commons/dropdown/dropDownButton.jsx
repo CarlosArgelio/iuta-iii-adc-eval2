@@ -15,8 +15,8 @@ function DropDownButton() {
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1" onClick={() => i18n.changeLanguage("es")}>ES</Dropdown.Item>
-            <Dropdown.Item href="#/action-2" onClick={() => i18n.changeLanguage("en")}>EN</Dropdown.Item>
+            <Dropdown.Item onClick={() => i18n.changeLanguage("es")}>ES</Dropdown.Item>
+            <Dropdown.Item onClick={() => i18n.changeLanguage("en")}>EN</Dropdown.Item>
         </Dropdown.Menu>
         </Dropdown>
     );
