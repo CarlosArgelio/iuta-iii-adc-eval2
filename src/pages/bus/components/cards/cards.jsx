@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import imageDataExample from '../../../../assets/image.png'
 import './cards.css'
 
 
 
-function Cards() {
+function Cards({ title, info, image, example }) {
     const [isFlipped, setIsFlipped] = useState(false);
 
     const handleFlip = () => {
@@ -15,26 +14,15 @@ function Cards() {
 
     return (
             <Card style={{ width: '18rem', margin: "10px" }} className={`card-flip ${isFlipped && 'card-with-frame'}`}>
-            <Card.Img variant="top" src={imageDataExample} />
+            <Card.Img variant="top" src={image} />
             <Card.Body>
-                <Card.Title>{isFlipped ? 'Bus de datos' : 'Bus de datos'}</Card.Title>
+                <Card.Title>{title}</Card.Title>
                 <Card.Text>
-                {isFlipped ? 'El bus de datos de un ordenador conecta la CPU, la RAM y los dispositivos de almacenamiento.' : 'Quieres saber que es el bus de datos?'}
+                {isFlipped ? info : `Quieres saber que es el ${title}?`}
                 </Card.Text>
                 {
                     isFlipped ? 
                         <div>
-                            <Button variant="primary" style={{
-                            // position: 'absolute', 
-                            width: '200%; float: right',
-                            textAlign: 'center',
-                            margin: 'auto'
-                            }} 
-                            // onClick={handleFlip}
-                            > 
-                            Un ejemplo? 
-                            </Button> 
-
                             <Button variant="primary" style={{
                             // position: 'absolute', 
                             width: '200%; float: right',
