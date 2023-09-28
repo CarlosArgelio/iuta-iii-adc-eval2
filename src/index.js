@@ -12,6 +12,11 @@ import i18next from 'i18next'
 import global_es from './translations/es/global.json'
 import global_en from './translations/en/global.json'
 
+import Header from './components/commons/header/header'
+import Footer from './components/commons/footer/footer'
+
+
+
 i18next.init({
   interpolation: { escapeValue: false },
   lng: "es",
@@ -29,7 +34,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <I18nextProvider i18n={i18next}>
-      <RouterProvider router={router} />
+      <Header />
+          <RouterProvider router={router} />
+      <Footer />
     </ I18nextProvider>
   </React.StrictMode>
 );
