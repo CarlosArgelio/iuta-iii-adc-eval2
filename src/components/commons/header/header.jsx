@@ -17,13 +17,13 @@ const Headers = () => {
         <>
         <Navbar data-bs-theme="white" style={{backgroundColor: styles.backgroundColor}}>
             <Container>
-            <Navbar.Brand href="#home" style={{color: styles.colorWhite}}>
+            <Navbar.Brand href="/iuta-iii-adc-eval2" style={{color: styles.colorWhite}}>
                 <img src={logoIUTA} alt="logo IUTA" />
             </Navbar.Brand>
             <Nav className="me-auto">
                 <Nav.Link href="/iuta-iii-adc-eval2/#/bus" style={{color: styles.colorWhite}}> {t('components.header.bus')} </Nav.Link>
                 <Nav.Link href="/iuta-iii-adc-eval2/#/processor" style={{color: styles.colorWhite}}> {t('components.header.processor')} </Nav.Link>
-                <Nav.Link href="#pricing" style={{color: styles.colorWhite}}> {t('components.header.memory')} </Nav.Link>
+                <Nav.Link href="/iuta-iii-adc-eval2/#/memory" style={{color: styles.colorWhite}}> {t('components.header.memory')} </Nav.Link>
                 <Nav.Link href="#pricing" style={{color: styles.colorWhite}}> {t('components.header.data')} </Nav.Link>
                 <Nav.Link href="#pricing" style={{color: styles.colorWhite}}> {t('components.header.disk')} </Nav.Link>
                 <Nav.Link href="#pricing" style={{color: styles.colorWhite}}> {t('components.header.so')}  </Nav.Link>

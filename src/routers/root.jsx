@@ -1,6 +1,7 @@
 import App from '../App';
-import Bus from '../pages/bus/bus'
-import Processor from '../pages/processor/processor'
+import Bus from '../pages/bus/bus';
+import Processor from '../pages/processor/processor';
+import Memory from '../pages/memory/memory'
 
 
 
@@ -18,6 +19,10 @@ const routes =  createHashRouter([
     {
       path: "/processor",
       element: <Processor />
+    },
+    {
+      path: "/memory",
+      element: <Memory />
     }
 ])
 
