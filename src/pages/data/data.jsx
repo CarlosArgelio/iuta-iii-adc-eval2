@@ -1,5 +1,5 @@
 import Transition from "./components/transitions/transitions";
-import Form from "./components/form/form";
+import Cards from './components/cards/cards'
 
 // images import
 
@@ -13,22 +13,30 @@ const Processador = () => {
                 <Transition />
             </div>
             <div style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center"
-            }}
-            >
-                <div style={{
                     display: "flex",
+                    flexDirection: "row",
+                    width: "100%",
                     justifyContent: "center",
-                    alignItems: "center",
-                    border: "1px solid black",
-                    margin: "10px",
+                    marginRight: "10px",
+                    marginLeft: "auto",
                     padding: "10px",
-                    width: "500px"
                 }}>
-                    <Form />
-                </div>
+                <Cards 
+                    title={'Entero'} 
+                    info={'Representa números enteros, positivos o negativos.'} 
+                    />
+                <Cards 
+                    title={'Decimal'} 
+                    info={'Representa números con decimales.'} 
+                    />
+                <Cards 
+                    title={'Cadena'} 
+                    info={'Representa una secuencia de caracteres, como letras, números o símbolos.'} 
+                    />
+                <Cards 
+                    title={'Booleano'} 
+                    info={'Representa un valor lógico, verdadero o falso.'} 
+                    />
             </div>
         </>
   );
