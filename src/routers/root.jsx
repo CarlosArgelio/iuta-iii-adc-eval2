@@ -4,6 +4,7 @@ import Processor from '../pages/processor/processor';
 import Memory from '../pages/memory/memory'
 import Data from '../pages/data/data'
 import Disk from '../pages/disk/disk'
+import SO from '../pages/so/so'
 
 
 
@@ -33,6 +34,10 @@ const routes =  createHashRouter([
     {
       path: "/disk",
       element: <Disk />
+    },
+    {
+      path: "/so",
+      element: <SO />
     }
 ])
 
