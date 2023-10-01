@@ -25,7 +25,7 @@ const Headers = () => {
                 <Nav.Link href="/iuta-iii-adc-eval2/#/processor" style={{color: styles.colorWhite}}> {t('components.header.processor')} </Nav.Link>
                 <Nav.Link href="/iuta-iii-adc-eval2/#/memory" style={{color: styles.colorWhite}}> {t('components.header.memory')} </Nav.Link>
                 <Nav.Link href="/iuta-iii-adc-eval2/#/data" style={{color: styles.colorWhite}}> {t('components.header.data')} </Nav.Link>
-                <Nav.Link href="#pricing" style={{color: styles.colorWhite}}> {t('components.header.disk')} </Nav.Link>
+                <Nav.Link href="/iuta-iii-adc-eval2/#/disk" style={{color: styles.colorWhite}}> {t('components.header.disk')} </Nav.Link>
                 <Nav.Link href="#pricing" style={{color: styles.colorWhite}}> {t('components.header.so')}  </Nav.Link>
 
                 <DropDownButton />
