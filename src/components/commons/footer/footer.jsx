@@ -10,56 +10,19 @@ function Footer() {
                     {/* Column 1 */}
                     <div className="col-md-3 col-sm-6">
                         <h4>
-                            Lorem ipsum dolor sit.
+                            Mis datos
                         </h4>
                         <ul className='list-unstyled'>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                        </ul>
-                    </div>
-                    {/* Column 2 */}
-                    <div className="col-md-3 col-sm-6">
-                        <h4>
-                            Lorem ipsum dolor sit.
-                        </h4>
-                        <ul className='list-unstyled'>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                        </ul>
-                    </div>
-                    {/* Column 3 */}
-                    <div className="col-md-3 col-sm-6">
-                        <h4>
-                            Lorem ipsum dolor sit.
-                        </h4>
-                        <ul className='list-unstyled'>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                        </ul>
-                    </div>
-                    {/* Column 4 */}
-                    <div className="col-md-3 col-sm-6">
-                        <h4>
-                            Lorem ipsum dolor sit.
-                        </h4>
-                        <ul className='list-unstyled'>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
-                            <li>Lorem, ipsum dolor.</li>
+                            <li>Carlos Argelio Palacios Ramos</li>
+                            <li>30.032.692</li>
+                            <li>Tercer Cuatrimestre</li>
                         </ul>
                     </div>
                 </div>
                 {/* Footer Button */}
                 <div className="footer-button">
                     <p className="text-xs-center">
-                        &copy;{new Date().getFullYear()} City Guide App - All Rigths
+                        &copy;{new Date().getFullYear()} Carlos Argelio - All Rigths
                     </p>
                 </div>
             </div>
